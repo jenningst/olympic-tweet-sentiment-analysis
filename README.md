@@ -33,13 +33,13 @@ From the output of VADER, we generate three additional features for use in our a
 With all of our tweets scored for sentiment and polarity, we can get an idea of the popular sports in the Olympics. A simple bar chart goes a along way in drawing our conclusions.
 
 <p align='center'>
-  <img width='600' src='https://github.com/jenningst/nba-trade-analysis/blob/main/images/boxplot-min-played.png'>
+  <img width='600' src='https://github.com/jenningst/olympic-tweet-sentiment-analysis/blob/main/plots/barplot-sentiment-by-sport.png'>
 </p>
 
 We can also compare sentiment as well as the score differences betweet Vader and Textblob by a scatter plot. If Vader and Textblob agree completely we should get a diagonal line from the lower left to the upper right of each scatter plot.
 
 <p align='center'>
-  <img width='600' src='https://github.com/jenningst/nba-trade-analysis/blob/main/images/boxplot-min-played.png'>
+  <img width='800' src='https://github.com/jenningst/olympic-tweet-sentiment-analysis/blob/main/plots/scatterplot-sentiment-by-sport.png'>
 </p>
 
 It appears that all of the sports were talked about in mostly a positive light. The traditional Summer Olympic sports of gymnastics and track were overwhelmingly positive with about 70% of their tweets interpreted as positive. Of the two new sports, skateboarding and surfing, both had slightly positive reactions. Interestingly, out of all of the sports investigated, surfing was talked about least negatively. Biking was the most indifferent sport with just over 40% of tweets interpreted as neutral tweets.
